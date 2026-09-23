@@ -142,6 +142,12 @@ src/
   (Phase, PhaseEndsAt, RampUnlockAt, Winner…). Cars carry `Health`,
   `Destroyed` and `ParkProgress` attributes.
 
+## Project docs
+
+- `CLAUDE.md`: contributor and agent guide (commands, conventions, replicated contract).
+- `docs/adr/`: architecture decision records.
+- `docs/sessions/`: dated session logs.
+
 ## Tuning
 
 Everything lives in `src/shared/Config.luau`:
