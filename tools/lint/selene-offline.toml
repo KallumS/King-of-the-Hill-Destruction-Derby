@@ -1,0 +1,6 @@
+# Offline selene config for sandboxes that cannot download the Roblox API dump.
+# Use via tools/lint-offline.sh, not directly.
+std = "robloxlite"
+
+[lints]
+shadowing = "allow"
